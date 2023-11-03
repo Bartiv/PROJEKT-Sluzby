@@ -1,0 +1,205 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body{
+    background-color: #FAFAFA;
+}
+
+
+.box{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color:#8B8B8B;
+    background-color:#FAFAFA;
+    border: 2px solid #FAFAFA;
+    box-shadow: 1px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.10);
+    width: 500px;
+    height: 1660px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+    
+    
+
+}
+
+h1{
+    color: black;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #407BFF;
+    line-height: 1.4;
+    
+}
+
+h2{
+    color: black;
+    font-size: 16px;
+    padding: 60px 95px 0 130px;
+
+    
+}
+
+p{
+    padding: 10px 30px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.icon{
+    display: flex;
+    border: 0.5px solid #407BFF1F;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.10);
+    width: 460px;
+    height: 80px;
+    border-radius: 7px;
+    font-size: 13px;
+    padding: 20px 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    background-color:#FFFFFF;
+    flex-basis: 100%;
+    
+  
+   
+}
+
+
+
+.happy-traveler{
+    padding: 60px 75px 10px 75px;
+}
+
+.tlacitko{
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #407BFF;
+    width: 195px;
+    height: 40px;
+    padding: 0.7em 1em;
+    margin: 0.8em 150px;
+    font-size: 14px;
+}
+
+.plaz{
+    background-color: #8B8B8B;
+    width: 220px;
+    margin: 0.8em 140px;
+}
+
+
+
+
+@media screen and (min-width: 770px) {
+    .box{
+        width: 770px;
+        height: 1460px;
+        padding: 60px 20px;
+    }
+    
+    .tlacitka{
+        display: flex;
+        border: 1px solid opacity;
+        max-width: 435px;
+        max-height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+       
+
+    }
+    .tlacitko{
+        flex-shrink: 0;
+        margin-left: auto;
+        margin-right: auto;
+        /* justify-content: center; */
+        
+
+    }
+   
+
+   .cestovka,
+   .delegati{
+    display: flex;
+    
+   }
+   .icon{
+    flex: 1 1 calc(100% / 3);
+    display: block;
+    min-height: 170px;
+   
+    
+   }
+}
+
+@media screen and (min-width: 1100px) {
+    .box{
+        width: 1200px;
+        height: 1015px;
+       
+    }
+   .happy-traveler{
+    display: flex;
+    justify-content: space-between;
+   }
+   .foto{
+    order: 1;
+   }
+
+  
+   .specializujeme,
+   .tlacitka{
+    border: 1px solid opacity;
+    max-width: 490px;
+    max-height: 65px;
+   }
+
+  
+
+    .sluzby1,
+    .sluzby2{
+        display: flex;
+        
+        
+
+    }
+    .cestovka{
+        order: 1;
+    }
+
+    .text1{
+        order: 2;
+        
+    }
+
+    .icon{
+        max-width: 170px;
+        max-height: 190px;
+
+    }
+  /* .uvod{
+    display: flex;
+  }  
+  .happy-traveler,
+  .tlacitka{
+    flex: 1 1 50%;
+  }
+
+  .happy-traveler{
+    order: 2;
+  }
+   
+  .tlacitka{
+    order: 1;
+    display: block;
+  } */
+}
+
+
